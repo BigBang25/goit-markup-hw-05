@@ -883,6 +883,7 @@ display: flex;
     border-radius: 4px;
     border: 1px solid var(--primary-white-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     background-color: transparent;
     outline: transparent;
     /* padding: 8px 16px; */
@@ -1135,7 +1136,7 @@ display: flex;
 .modal-form-label {
     display: block;
     margin-bottom: 4px;
-    color: var(--slate);
+    color: var(--light-slate);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -1160,11 +1161,11 @@ display: flex;
 }
 
 .modal-form-input:focus {
-    border-color: #4D5AE5;
+    border-color: var(--iris);
 }
 
 .modal-form-input:focus+.modal-form-icon {
-    fill: #4D5AE5;
+    fill:var(--iris);
 }
 
 .form-comment-container {
@@ -1259,7 +1260,7 @@ display: flex;
 
 .modal-form-agrement {
     display: block;
-    color: var(--slate);
+    color: var(--light-slate);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
