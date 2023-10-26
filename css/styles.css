@@ -1079,6 +1079,7 @@ border: none;
 .modal-input:focus-within,
 .text-area:focus-within {
     border-color: var(--iris);
+    border-color: #4D5AE5;
 }
 
 .modal-icon {
@@ -1092,6 +1093,7 @@ border: none;
 
 .modal-input:focus-within + .modal-icon {
     fill: var(--iris);
+    border-color: #4D5AE5;
 }
 
 .text-area {
