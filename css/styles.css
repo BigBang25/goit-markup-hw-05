@@ -1149,7 +1149,7 @@ display: flex;
 
 .input-label {
     display: block;
-    color: var(--lightslate, #8e8f99);
+    color: var(--light-slate);
     margin-bottom: 4px;
 }
 
@@ -1252,7 +1252,9 @@ display: flex;
 }
 
 .modal-submit-btn {
+    display: block;
     min-width: 169px;
+    height: 56px;
     background-color: #4d5ae5;
     color: #ffffff;
     font-weight: 500;
