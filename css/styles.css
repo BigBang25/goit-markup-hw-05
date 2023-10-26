@@ -1009,6 +1009,12 @@ border: none;
 
 .backdrop .modal-btn:hover,
 .backdrop .modal-btn:focus {
+    background-color: var(--ocean);
+    border: none;
+}
+
+.backdrop .modal-btn:hover,
+.backdrop .modal-btn:focus {
     fill: #ffffff
 }
     
