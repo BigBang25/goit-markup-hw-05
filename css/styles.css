@@ -1057,6 +1057,7 @@ border: none;
 .input-label {
     display: block;
     color: var(--light-slate);
+    color: #8e8f99;
     margin-bottom: 4px;
 }
 
