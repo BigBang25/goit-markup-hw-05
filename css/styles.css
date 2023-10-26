@@ -957,12 +957,13 @@ display: flex;
         visibility var(--transition);
         
 }
-
+/**
 .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
+**/
 
 .backdrop.is-hidden {
     opacity: 0;
@@ -1015,12 +1016,7 @@ display: flex;
     background-color: var(--ocean);
     border: none;
 }
-/**
-.backdrop .modal-btn:hover,
-.backdrop .modal-btn:focus {
-    fill: #ffffff
-}
-   **/ 
+
 
 
 .backdrop .modal-btn-ico {
@@ -1046,7 +1042,6 @@ display: flex;
     text-align: center;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
@@ -1177,7 +1172,6 @@ display: flex;
     color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.04em;
     padding: 16px 32px;
     margin: 0 auto;
