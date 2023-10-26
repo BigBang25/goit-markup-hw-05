@@ -952,8 +952,22 @@ display: flex;
     height: 100%;
     background-color: var(--navyblue-modal);
     z-index: 2;
+    pointer-events: none;
     transition: opacity var(--transition),
         visibility var(--transition);
+        
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .backdrop .modal {
@@ -1019,13 +1033,6 @@ border: none;
 }
     
 
-
-
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-}
 
 .backdrop .modal-btn-ico {
     fill: black;
