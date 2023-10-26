@@ -957,13 +957,13 @@ display: flex;
         visibility var(--transition);
         
 }
-/**
+
 .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
-**/
+
 
 .backdrop.is-hidden {
     opacity: 0;
@@ -1017,6 +1017,10 @@ display: flex;
     border: none;
 }
 
+.backdrop .modal-btn:hover,
+.backdrop .modal-btn:focus {
+    fill: #ffffff
+}
 
 
 .backdrop .modal-btn-ico {
