@@ -999,34 +999,21 @@ display: flex;
 }
 
 .modal-btn:hover {
-background-color: #404bb;
+background-color: #404bbf;
 border: none;
 }
 .modal-btn:focus {
-    background-color: #404bb;
+    background-color:#404bbf;
     border: none;
 }
 
-
-/**.backdrop .modal-btn:hover,
-.backdrop .modal-btn:focus {
-    background-color: var(--ocean);
-    border: none;
-}
-**/
 .backdrop .modal-btn:hover,
 .backdrop .modal-btn:focus {
     fill: #ffffff
 }
     
 
-/**
-@media only screen and (max-width: 427.98px) {
-    .backdrop .modal {
-        width: 310px;
-    }
-}
-**/
+
 
 .backdrop.is-hidden {
     opacity: 0;
@@ -1089,8 +1076,8 @@ border: none;
     outline: transparent;
 }
 
-.modal-input:focus,
-.text-area:focus {
+.modal-input:focus-within,
+.text-area:focus-within {
     border-color: var(--iris);
 }
 
@@ -1103,7 +1090,7 @@ border: none;
     transition: fill var(--transition);
 }
 
-.modal-input:focus + .modal-icon {
+.modal-input:focus-within + .modal-icon {
     fill: var(--iris);
 }
 
