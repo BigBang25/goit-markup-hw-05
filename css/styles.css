@@ -999,9 +999,6 @@ display: flex;
     border-radius: 50%;
     border-color: rgba(0, 0, 0, 0.1);
     background-color: var(--cornflower);
-    padding: 0x;
-    transition: background-color var(--transition),
-        border var(--transition), fill var(--transition);
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1012,26 +1009,18 @@ display: flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover {
-background-color: #404bbf;
-border: none;
-}
-.modal-btn:focus {
-    background-color:#404bbf;
-    border: none;
-}
 
 .backdrop .modal-btn:hover,
 .backdrop .modal-btn:focus {
     background-color: var(--ocean);
     border: none;
 }
-
+/**
 .backdrop .modal-btn:hover,
 .backdrop .modal-btn:focus {
     fill: #ffffff
 }
-    
+   **/ 
 
 
 .backdrop .modal-btn-ico {
@@ -1039,10 +1028,16 @@ border: none;
     transition: fill var(--transition);
 }
 
+.modal-btn:hover .modal-btn-ico,
+.modal-btn:focus .modal-btn-ico {
+    fill: #FFFFFF;
+}
+/***
 .backdrop .modal-btn:hover .modal-btn-ico,
 .backdrop .modal-btn:focus .modal-btn-ico {
     fill: var(--primary-white-color);
 }
+**/
 
 .modal .strong {
     display: block;
