@@ -377,7 +377,7 @@ content: "";
     background-color: var(--navyblue);
     margin: 0 auto;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1261,9 +1261,10 @@ display: flex;
     letter-spacing: 0.04em;
     padding: 16px 32px;
     margin: 0 auto;
+    border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    transition: background-color var(--transition-settings);
+    transition: background-color var(--transition);
 }
 
 .modal-submit-btn:hover,
