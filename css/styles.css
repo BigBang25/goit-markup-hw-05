@@ -965,12 +965,6 @@ display: flex;
 }
 
 
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-}
-
 .backdrop .modal {
     position: absolute;
     top: 50%;
@@ -1063,7 +1057,6 @@ display: flex;
 
 .input-label {
     display: block;
-    color: var(--light-slate);
     color: #8e8f99;
     margin-bottom: 4px;
 }
@@ -1139,7 +1132,7 @@ display: flex;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--lightslate);
+    color: #8e8f99;
 }
 
 .policy-text {
